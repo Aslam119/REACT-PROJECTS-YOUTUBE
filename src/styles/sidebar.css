@@ -1,0 +1,56 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.home{
+    color: red;
+}
+
+
+.section{
+    border-bottom: solid #edededed 1px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.sub-section{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    transition: 450ms;
+    color: #464545ed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo-section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.logo-section>img{
+    height: 25px;
+    margin-left: 15px;
+}
+
+.sub-section>span{
+    margin-left: 10px;
+}
+
+.sub-section:hover{
+    cursor: pointer;
+    background-color: #edededed;
+    color: red;
+}
+
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #464545ed;
+}

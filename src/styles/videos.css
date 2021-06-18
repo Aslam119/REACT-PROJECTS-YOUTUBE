@@ -1,0 +1,47 @@
+.video-section{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::-webkit-scrollbar{
+    opacity: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+}
+
+.video{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px;
+    transition: 450ms;
+    background-color: white;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.video:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.video>img{
+    height: 12rem;
+    
+}
